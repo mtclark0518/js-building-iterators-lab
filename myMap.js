@@ -1,9 +1,17 @@
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map
 
-function myMap(arr, callback) {
+
+
+
+
+function myMap(arr, callback, fn) {
 
 //  CODE INSIDE HERE   //
-
+  var mapped = [];
+  for(var i = 0; i < arr.length; i++){
+  	var output = callback(arr[i], i, arr);
+		
+	}
 }
 
 /*
@@ -11,7 +19,12 @@ function myMap(arr, callback) {
  If you want to check your code, use `index.js`!
 */
 
-
+/*
+var numbers = [1, 5, 10, 15];
+var doubles = numbers.map(function(x) {
+   return x * 2;
+});
+*/
 
 
 
