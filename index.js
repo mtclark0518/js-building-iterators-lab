@@ -13,9 +13,9 @@ var myReduce = require('./myReduce');
 /* myEach */
 
 //
-/*myEach(numArray, function print(element, index, arr) {
-   console.log('inside myEach', element, index, arr);
- });*/
+//myEach(numArray, function print(element, index, arr) {
+ //  console.log('inside myEach', element, index, arr);
+ //});
 
 
 

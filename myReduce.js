@@ -3,8 +3,13 @@
 
 function myReduce(arr, callback) {
 
-//  CODE INSIDE HERE   //
 
+  //  CODE INSIDE HERE   //
+  var prevVal = arr[0];
+  for(var i = 0; i < arr.length; i++){
+  	callback(arr[i], arr[i], i, arr);
+  }
+  return prevVal + arr[i];
 }
 
 /*

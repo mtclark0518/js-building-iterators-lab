@@ -9,9 +9,9 @@ function myMap(arr, callback, fn) {
 //  CODE INSIDE HERE   //
   var mapped = [];
   for(var i = 0; i < arr.length; i++){
-  	var output = callback(arr[i], i, arr);
-		
+  	mapped.push(callback(arr[i], i, arr));
 	}
+	return mapped;
 }
 
 /*
